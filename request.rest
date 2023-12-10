@@ -1,0 +1,24 @@
+POST http://192.168.254.111:8000/api/register
+Accept: "application/json"
+Content-Type: "application/json"
+
+{
+  "name": "Christian",
+  "email": "Test@gmail.com",
+  "password": "@Christian1"
+}
+
+### 
+POST http://192.168.254.111:8000/api/login
+Content-Type: "application/json"
+Accept: "application/json"
+
+{
+  "email": "kentbilbao12@gmail.com",
+  "password": "@Christian1"
+}
+
+###
+POST http://192.168.254.111:8000/api/logout
+Content-Type: "application/json"
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzAyMTEyNTkwLCJleHAiOjE3MDIxMTYxOTAsIm5iZiI6MTcwMjExMjU5MCwianRpIjoicTBIWmNObnBZS1ZqeXVtaSIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.s1yc6Oy6o1oLWFa99Y6E7mua4W6ih1V-qqKUw7VCsdc
